@@ -39,12 +39,12 @@ namespace PdfSharp
         /// <summary>
         /// The title of the product.
         /// </summary>
-        public const string Title = "PDFsharp";
+        public const string Title = "DA Express PDF Generator";
 
         /// <summary>
         /// A characteristic description of the product.
         /// </summary>
-        public const string Description = "A .NET library for processing PDF.";
+        public const string Description = "DA Express PDF Generator.";
 
         /// <summary>
         /// The PDF producer information string.
@@ -70,7 +70,7 @@ namespace PdfSharp
         /// <summary>
         /// The home page of this product.
         /// </summary>
-        public const string Url = "www.pdfsharp.com";
+        public const string Url = "agilent.com";
 
         /// <summary>
         /// Unused.
@@ -80,22 +80,22 @@ namespace PdfSharp
         /// <summary>
         /// The company that created/owned the product.
         /// </summary>
-        public const string Company = "empira Software GmbH, Cologne Area (Germany)";
+        public const string Company = "Agilent";
 
         /// <summary>
         /// The name the product.
         /// </summary>
-        public const string Product = "PDFsharp";
+        public const string Product = "DA Express PDF Generator";
 
         /// <summary>
         /// The copyright information.
         /// </summary>
-        public const string Copyright = "Copyright © 2005-2016 empira Software GmbH.";
+        public const string Copyright = "2017, Agilent.";
 
         /// <summary>
         /// The trademark the product.
         /// </summary>
-        public const string Trademark = "PDFsharp";
+        public const string Trademark = "DA Express PDF Generator";
 
         /// <summary>
         /// Unused.
@@ -132,14 +132,14 @@ namespace PdfSharp
         /// The calculated build number.
         /// </summary>
 // ReSharper disable RedundantNameQualifier
-        public static int BuildNumber = (System.DateTime.Now - new System.DateTime(2005, 1, 1)).Days;
+        public static int BuildNumber = (System.DateTime.Now - new System.DateTime(2017, 1, 1)).Days;
 // ReSharper restore RedundantNameQualifier
 #endif
 
         /// <summary>
         /// E.g. "2005-01-01", for use in NuGet Script.
         /// </summary>
-        public const string VersionReferenceDate = "2005-01-01";
+        public const string VersionReferenceDate = "2017-01-01";
 
         /// <summary>
         /// Use _ instead of blanks and special characters. Can be complemented with a suffix in the NuGet Script.
@@ -149,31 +149,31 @@ namespace PdfSharp
         /// or characters that are invalid in an URL. In general, they follow the same rules as .NET namespaces do.
         /// So Foo.Bar is a valid ID, Foo! and Foo Bar are not. 
         /// </summary>
-        public const string NuGetID = "PDFsharp";
+        public const string NuGetID = "DA Express PDF Generator";
 
         /// <summary>
         /// Nuspec Doc: The human-friendly title of the package displayed in the Manage NuGet Packages dialog.
         /// If none is specified, the ID is used instead. 
         /// </summary>
-        public const string NuGetTitle = "PDFsharp";
+        public const string NuGetTitle = "DA Express PDF Generator";
 
         /// <summary>
         /// Nuspec Doc: A comma-separated list of authors of the package code.
         /// </summary>
-        public const string NuGetAuthors = "empira Software GmbH";
+        public const string NuGetAuthors = "Agilent";
 
         /// <summary>
         /// Nuspec Doc: A comma-separated list of the package creators. This is often the same list as in authors.
         /// This is ignored when uploading the package to the NuGet.org Gallery. 
         /// </summary>
-        public const string NuGetOwners = "empira Software GmbH";
+        public const string NuGetOwners = "Agilent";
 
         /// <summary>
         /// Nuspec Doc: A long description of the package. This shows up in the right pane of the Add Package Dialog
         /// as well as in the Package Manager Console when listing packages using the Get-Package command. 
         /// </summary>
         // This assignment must be written in one line because it will be parsed from a PS1 file.
-        public const string NuGetDescription = "PDFsharp is the Open Source .NET library that easily creates and processes PDF documents on the fly from any .NET language. The same drawing routines can be used to create PDF documents, draw on the screen, or send output to any printer.";
+        public const string NuGetDescription = "DA Express PDF Generator.";
 
         /// <summary>
         /// Nuspec Doc: A description of the changes made in each release of the package. This field only shows up
@@ -186,7 +186,7 @@ namespace PdfSharp
         /// Nuspec Doc: A short description of the package. If specified, this shows up in the middle pane of the
         /// Add Package Dialog. If not specified, a truncated version of the description is used instead.
         /// </summary>                  
-        public const string NuGetSummary = "A .NET library for processing PDF.";
+        public const string NuGetSummary = "DA Express PDF Generator.";
 
         /// <summary>
         /// Nuspec Doc: The locale ID for the package, such as en-us.
@@ -200,7 +200,7 @@ namespace PdfSharp
         /// http://www.pdfsharp.net/NuGetPackage_PDFsharp-GDI.ashx
         /// http://www.pdfsharp.net/NuGetPackage_PDFsharp-WPF.ashx
         /// </remarks>
-        public const string NuGetProjectUrl = "www.pdfsharp.net";
+        public const string NuGetProjectUrl = "agilent.com";
 
         /// <summary>
         /// Nuspec Doc: A URL for the image to use as the icon for the package in the Manage NuGet Packages
@@ -222,7 +222,7 @@ namespace PdfSharp
         /// Nuspec Doc: A space-delimited list of tags and keywords that describe the package. This information is used to help make sure users can find the package using
         /// searches in the Add Package Reference dialog box or filtering in the Package Manager Console window.
         /// </summary>                  
-        public const string NuGetTags = "PDFsharp PDF creation";
+        public const string NuGetTags = "DA Express PDF Generatorn";
 
         /// <summary>
         /// The technology tag of the product:
