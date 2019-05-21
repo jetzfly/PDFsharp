@@ -387,7 +387,7 @@ namespace PdfSharp.Drawing.Pdf
         public XPoint RealizedTextPosition;
 
         /// <summary>
-        /// Indicates that the text transformation matrix currently skews 20° to the right.
+        /// Indicates that the text transformation matrix currently skews 20?to the right.
         /// </summary>
         public bool ItalicSimulationOn;
 

@@ -751,7 +751,7 @@ namespace PdfSharp.Pdf
 
             /// <summary>
             /// (Required if PieceInfo is present; optional otherwise; PDF 1.3) The date and time
-            /// when the page’s contents were most recently modified. If a page-piece dictionary
+            /// when the pageæŠ¯ contents were most recently modified. If a page-piece dictionary
             /// (PieceInfo) is present, the modification date is used to ascertain which of the 
             /// application data dictionaries that it contains correspond to the current content
             /// of the page.
@@ -777,8 +777,8 @@ namespace PdfSharp.Pdf
 
             /// <summary>
             /// (Optional; PDF 1.3) A rectangle, expressed in default user space units, defining the
-            /// extent of the page’s meaningful content (including potential white space) as intended
-            /// by the page’s creator. Default value: the value of CropBox.
+            /// extent of the pageæŠ¯ meaningful content (including potential white space) as intended
+            /// by the pageæŠ¯ creator. Default value: the value of CropBox.
             /// </summary>
             [KeyInfo("1.3", KeyType.Rectangle | KeyType.Optional)]
             public const string ArtBox = "/ArtBox";
@@ -799,21 +799,21 @@ namespace PdfSharp.Pdf
             /// in order, to form a single stream. This allows PDF producers to create image objects and
             /// other resources as they occur, even though they interrupt the content stream. The division
             /// between streams may occur only at the boundaries between lexical tokens but is unrelated
-            /// to the page’s logical content or organization. Applications that consume or produce PDF 
+            /// to the pageæŠ¯ logical content or organization. Applications that consume or produce PDF 
             /// files are not required to preserve the existing structure of the Contents array.
             /// </summary>
             [KeyInfo(KeyType.Array | KeyType.Stream | KeyType.Optional)]
             public const string Contents = "/Contents";
 
             /// <summary>
-            /// (Optional; PDF 1.4) A group attributes dictionary specifying the attributes of the page’s 
+            /// (Optional; PDF 1.4) A group attributes dictionary specifying the attributes of the pageæŠ¯ 
             /// page group for use in the transparent imaging model.
             /// </summary>
             [KeyInfo("1.4", KeyType.Dictionary | KeyType.Optional)]
             public const string Group = "/Group";
 
             /// <summary>
-            /// (Optional) A stream object defining the page’s thumbnail image.
+            /// (Optional) A stream object defining the pageæŠ¯ thumbnail image.
             /// </summary>
             [KeyInfo(KeyType.Stream | KeyType.Optional)]
             public const string Thumb = "/Thumb";
@@ -827,7 +827,7 @@ namespace PdfSharp.Pdf
             public const string B = "/B";
 
             /// <summary>
-            /// (Optional; PDF 1.1) The page’s display duration (also called its advance timing): the 
+            /// (Optional; PDF 1.1) The pageæŠ¯ display duration (also called its advance timing): the 
             /// maximum length of time, in seconds, that the page is displayed during presentations before
             /// the viewer application automatically advances to the next page. By default, the viewer does 
             /// not advance automatically.
@@ -870,20 +870,20 @@ namespace PdfSharp.Pdf
 
             /// <summary>
             /// (Required if the page contains structural content items; PDF 1.3)
-            /// The integer key of the page’s entry in the structural parent tree.
+            /// The integer key of the pageæŠ¯ entry in the structural parent tree.
             /// </summary>
             [KeyInfo(KeyType.Integer | KeyType.Optional)]
             public const string StructParents = "/StructParents";
 
             /// <summary>
             /// (Optional; PDF 1.3; indirect reference preferred) The digital identifier of
-            /// the page’s parent Web Capture content set.
+            /// the pageæŠ¯ parent Web Capture content set.
             /// </summary>
             [KeyInfo("1.3", KeyType.String | KeyType.Optional)]
             public const string ID = "/ID";
 
             /// <summary>
-            /// (Optional; PDF 1.3) The page’s preferred zoom (magnification) factor: the factor 
+            /// (Optional; PDF 1.3) The pageæŠ¯ preferred zoom (magnification) factor: the factor 
             /// by which it should be scaled to achieve the natural display magnification.
             /// </summary>
             [KeyInfo("1.3", KeyType.Real | KeyType.Optional)]

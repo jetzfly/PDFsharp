@@ -49,7 +49,7 @@ using System.Windows.Markup;
 [assembly: AssemblyTrademark(PdfSharp.VersionInfo.Trademark)]
 [assembly: AssemblyCulture(PdfSharp.VersionInfo.Culture)]
 
-[assembly: NeutralResourcesLanguage("en-US")]
+//[assembly: NeutralResourcesLanguage("en-US")]
 
 #if WPF
 [assembly: XmlnsDefinition("http://schemas.empira.com/pdfsharp/2010/xaml/presentation", "PdfSharp.Windows")]

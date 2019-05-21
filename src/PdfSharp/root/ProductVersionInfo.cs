@@ -90,7 +90,7 @@ namespace PdfSharp
         /// <summary>
         /// The copyright information.
         /// </summary>
-        public const string Copyright = "2017, Agilent.";
+        public const string Copyright = "2018, Agilent.";
 
         /// <summary>
         /// The trademark the product.
@@ -110,12 +110,12 @@ namespace PdfSharp
         /// <summary>
         /// The minor version number of the product.
         /// </summary>
-        public const string VersionMinor = "50";
+        public const string VersionMinor = "51";
 
         /// <summary>
         /// The build number of the product.
         /// </summary>
-        public const string VersionBuild = "4589";  // V16G // Build = days since 2005-01-01  -  change this values ONLY HERE
+        public const string VersionBuild = "0";  
 
         /// <summary>
         /// The patch number of the product.
@@ -125,7 +125,7 @@ namespace PdfSharp
         /// <summary>
         /// The Version Prerelease String for NuGet.
         /// </summary>
-        public const string VersionPrerelease = "beta4"; // "" for stable Release, e.g. "beta" or "rc.1.2" for Prerelease. // Also used for NuGet Version.
+        public const string VersionPrerelease = "release"; // "" for stable Release, e.g. "beta" or "rc.1.2" for Prerelease. // Also used for NuGet Version.
 
 #if DEBUG
         /// <summary>
@@ -139,7 +139,7 @@ namespace PdfSharp
         /// <summary>
         /// E.g. "2005-01-01", for use in NuGet Script.
         /// </summary>
-        public const string VersionReferenceDate = "2017-01-01";
+        public const string VersionReferenceDate = "2018-04-24";
 
         /// <summary>
         /// Use _ instead of blanks and special characters. Can be complemented with a suffix in the NuGet Script.
